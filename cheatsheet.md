@@ -4,5 +4,6 @@
 - Get-Command -Noun Alias
 - Get-Help Get-FileHash -Examples
 - Get-Help -Name About*
+- Get-Variable -Name *Preference
 # Tweaks
 - Set-StrictMode -Version Latest
