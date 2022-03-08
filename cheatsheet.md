@@ -8,3 +8,17 @@
 - Get-Help about_Preference_Variables
 # Tweaks
 - Set-StrictMode -Version Latest
+# Casting variables
+```
+PS> $num = 1
+PS> $num
+1
+PS> $num.GetType().name
+Int32
+PS> $num = 1.5
+PS> $num.GetType().name
+Double
+PS> [Int32]$num
+2
+
+```
