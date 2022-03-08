@@ -1,14 +1,15 @@
 # Getting Help
-- Get-Alias
-- Get-Command -Verb Get
-- Get-Command -Noun Alias
-- Get-Help Get-FileHash -Examples
-- Get-Help -Name About*
-- Get-Variable -Name *Preference
-- Get-Help about_Preference_Variables
+- `Get-Alias`
+- `Get-Command -Verb Get`
+- `Get-Command -Noun Alias`
+- `Get-Help Get-FileHash -Examples`
+- `Get-Help -Name About*`
+- `Get-Variable -Name *Preference`
+- `Get-Help about_Preference_Variables`
 # Tweaks
-- Set-StrictMode -Version Latest
+- `Set-StrictMode -Version Latest`
 # Casting variables
+- `[Int32]$num`
 ```
 PS> $num = 1
 PS> $num
