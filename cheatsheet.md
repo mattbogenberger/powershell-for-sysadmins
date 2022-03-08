@@ -21,7 +21,6 @@ PS> $num.GetType().name
 Double
 PS> [Int32]$num
 2
-
 ```
 # See all methods and properties of a variable
 - `Get-Member -InputObject $color`
