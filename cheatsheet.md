@@ -28,4 +28,5 @@ PS> [Int32]$num
 # See all properties of an object
 - `Select-Object -InputObject $yourobject -Property *`
 # Create a custom object
-- `$myFirstCustomObject = New-Object -TypeName PSCustomObject`
+- Method 1: `$myFirstCustomObject = New-Object -TypeName PSCustomObject`
+- Method 2: `$myFirstCustomObject = [PSCustomObject]@{OSBuild = 'x'; OSVersion = 'y'}`
