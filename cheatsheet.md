@@ -27,3 +27,5 @@ PS> [Int32]$num
 - `Get-Member -InputObject $color`
 # See all properties of an object
 - `Select-Object -InputObject $yourobject -Property *`
+# Create a custom object
+- `$myFirstCustomObject = New-Object -TypeName PSCustomObject`
