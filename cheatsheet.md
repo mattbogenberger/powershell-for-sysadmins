@@ -25,3 +25,5 @@ PS> [Int32]$num
 - Casting `$colorpicker` as ArrayList type: `$colorPicker = [System.Collections.ArrayList]@('blue','white','yellow','black')`
 # See all methods and properties of a variable
 - `Get-Member -InputObject $color`
+# See all properties of an object
+- `Select-Object -InputObject $yourobject -Property *`
