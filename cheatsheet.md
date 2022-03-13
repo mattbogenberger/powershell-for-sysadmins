@@ -18,3 +18,5 @@
 # Create a custom object
 - Method 1: `$myFirstCustomObject = New-Object -TypeName PSCustomObject`
 - Method 2: `$myFirstCustomObject = [PSCustomObject]@{OSBuild = 'x'; OSVersion = 'y'}`
+# Piping objects between commands
+- `Get-Service -Name 'wuauserv' | Start-Service`
