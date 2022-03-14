@@ -20,3 +20,5 @@
 - Method 2: `$myFirstCustomObject = [PSCustomObject]@{OSBuild = 'x'; OSVersion = 'y'}`
 # Piping objects between commands
 - `Get-Service -Name 'wuauserv' | Start-Service`
+# Piping arrays between commands
+- `Get-Content -Path C:\Services.txt | Get-Service`
