@@ -1,0 +1,1 @@
+Write-Output("Hello, I am in a script!")
