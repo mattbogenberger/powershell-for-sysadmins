@@ -23,3 +23,6 @@
 - `Get-Service -Name 'wuauserv' | Start-Service`
 # Piping arrays between commands
 - `Get-Content -Path C:\Services.txt | Get-Service`
+# Working with execution policy
+- View current execution policy `Get-ExecutionPolicy`
+- Set execution policy `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`
