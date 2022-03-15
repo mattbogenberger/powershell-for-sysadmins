@@ -3,6 +3,7 @@
 - `Get-Command -Verb Get`
 - `Get-Command -Noun Alias`
 - `Get-Help Get-FileHash -Examples`
+- `Get-Help -Name Get-Service –Full`
 - `Get-Help -Name About*`
 - `Get-Variable -Name *Preference`
 - `Get-Help about_Preference_Variables`
